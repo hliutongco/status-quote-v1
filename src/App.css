@@ -1,0 +1,141 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+* {
+  color: white;
+}
+
+#content-selection {
+  background-color: rgba(55,55,55,0.9);
+  width: 75%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  margin-top: 15%;
+}
+
+#end-game {
+  background-color: rgba(55,55,55,0.9);
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.title {
+  margin-top: 15%;
+}
+
+h2, h1 {
+  font-size: 40px;
+}
+
+video {
+  background-color: black;
+}
+
+.popup{
+  margin-top: 10%;
+  text-align: center;
+  width: 100%;
+}
+
+.player1{
+  margin: 40px;
+  margin-left: 60px;
+  font-size: 25px;
+}
+
+.player2{
+  margin: 40px;
+  margin-right: 60px;
+  font-size: 25px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.select-box {
+  font-family: 'Press Start 2P', cursive;
+  background: #92CD41;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: white;
+  box-shadow: inset (-4px) (-4px) 0px 0px #4AA52E;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#player-selection{
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("https://secure.static.tumblr.com/81443e29eed91e143169e9e6b75fe7f3/rao1mez/39dmss2gi/tumblr_static_old-skool-3d-cinema-audience_color.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.start-btn:hover{
+  color: #92CD41;
+  background: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.hintmatch {
+  position: absolute;
+  color: white;
+  z-index: 99999;
+}
+
+.start-btn {
+    padding: 10px;
+    border-radius: 0px;
+    background: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    width: 280px;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+  }
+  .hint-btn {
+    z-index: 9999;
+    position: absolute;
+    padding: 10px;
+    border-radius: 0px;
+    background: #92CD41;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    width: 280px;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+  }
