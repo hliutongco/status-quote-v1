@@ -7,6 +7,7 @@ import {connect} from 'react-redux'
 class App extends Component {
 
   componentDidMount(){
+    document.title = "Status Quote"
     navigator.mediaDevices.getUserMedia({audio: true})
   }
 
